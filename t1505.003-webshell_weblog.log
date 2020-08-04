@@ -1,0 +1,19 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2020-07-06 08:22:16
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2020-07-06 22:56:48 192.168.112.141 GET / - 80 - 86.168.182.25 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - 200 0 0 155
+2020-07-06 22:56:48 192.168.112.141 GET /favicon.ico - 80 - 86.168.182.25 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+Trident/7.0;+rv:11.0)+like+Gecko - 404 0 2 0
+2020-07-06 22:56:48 192.168.112.141 GET /profile.aspx - 80 - 86.168.182.25 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://192.168.112.141/ 200 0 0 16
+2020-07-06 22:56:48 192.168.112.141 POST /profile.aspx - 80 - 86.168.182.25 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://192.168.112.141/profile.aspx 200 0 0 46
+2020-07-06 22:56:48 192.168.112.141 GET /Files/ - 80 - 86.168.182.25 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://192.168.112.141/ 200 0 0 0
+2020-07-06 22:56:48 192.168.112.141 GET /Files/pouya.asp - 80 - 86.168.182.25 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://192.168.112.141/Files/ 200 0 0 141
+2020-07-06 22:56:48 192.168.112.141 GET /Files/pouya.asp action=info 80 - 86.168.182.25 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - 200 0 0 14
+2020-07-06 22:56:48 192.168.112.141 GET /Files/pouya.asp action=filecopy&file=C:|inetpub|wwwroot|Files|file.txt 80 - 86.168.182.25 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://192.168.112.141/Files/pouya.asp 200 0 0 0
+2020-07-06 22:56:48 192.168.112.141 POST /Files/pouya.asp action=filecopy 80 - 86.168.182.25 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://192.168.112.141/Files/pouya.asp?action=filecopy&file=C:%7Cinetpub%7Cwwwroot%7CFiles%7Cfile.txt 200 0 0 0
+2020-07-06 22:56:48 192.168.112.141 GET /Files/pouya.asp action=cmd 80 - 86.168.182.25 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - 200 0 0 0
+2020-07-06 22:56:48 192.168.112.141 GET /Files/pouya.asp action=cmd&.CMD=dir 80 - 86.168.182.25 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://192.168.112.141/Files/pouya.asp?action=cmd 200 0 0 46
+2020-07-06 22:56:48 192.168.112.141 GET /Files/pouya.asp action=upload&path=C:|inetpub|wwwroot|Files| 80 - 86.168.182.25 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - 200 0 0 0
+2020-07-06 22:56:48 192.168.112.141 POST /Files/pouya.asp action=upload&processupload=yes&path=C:|inetpub|wwwroot|Files| 80 - 86.168.182.25 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://192.168.112.141/Files/pouya.asp?action=upload&path=C:%7Cinetpub%7Cwwwroot%7CFiles%7C 200 0 0 30
+2020-07-06 22:56:48 192.168.112.141 GET /Files/pouya.asp - 80 - 86.168.182.25 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://192.168.112.141/Files/ 200 0 0 15
+2020-07-06 22:56:48 192.168.112.141 GET /Files/pouya.asp action=reg 80 - 86.168.182.25 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - 200 0 0 0
